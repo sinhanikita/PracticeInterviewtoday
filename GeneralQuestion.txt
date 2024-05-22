@@ -1,0 +1,305 @@
+bug /defect lifr cycle:bug life cycle refers to its entire state starting from a new defect detected to the closing 
+off of that defect by the tester.
+new
+defect is valid or not
+if not valid-rejected
+if valid-if it is in not in scope-deferred,if it is duplicated-duplicate
+oter than above two then in progress
+if fixed by developer then closed
+not fixed then again it will be reopened and same process   will follow
+
+
+
+priority vs severity:
+high medium low ,1,2,3
+verification vs validation
+
+sdlc-software devlopment life cycle-
+planning and 
+requirement analysis
+designing architecture
+development
+testing
+deployment and maintenance
+
+STLC-The procedure of software testing is also known as STLC (Software Testing Life Cycle) which includes phases of the testing process.
+requirement analysis
+test plan creation
+test case developer
+env set up
+execution 
+closure
+
+
+types of testing:manual and automation
+manual-white, black and grey
+black-functional and non functional,
+functional-uis
+non functional-performance-load,stress,acLbilityand stability,usabikity,compatibility
+
+
+software development methodology:
+agile-scrum
+waterfall-sequential,linear cant go back. next step will be taken if and only if previous steps completed. usually we cant go back
+DevOps development methodology
+spiral
+vshaped
+hybrid
+
+
+
+
+What is a Bug/Defect?
+A defect is an error or bug in an application that is created during the building or designing of software and due to
+ which software starts to show abnormal behaviors during its use.
+
+
+traceability matrix:
+
+defectvs error vs fault vs failure
+
+
+
+
+
+
+api:
+diffrence between rest and soap
+
+
+https://www.simplilearn.com/top-api-testing-interview-questions-article
+
+positive and negative testing
+
+
+?????what is retest and reverify again done by tester
+
+
+rest api vs soap api
+
+
+
+https://www.javatpoint.com/software-engineering-software-development-life-cycle
+
+difference between test case and test plan and test suite
+
+smoke testing vs sanity
+
+
+bug vs error:
+Software bugs are defects, which occur when the software or an application does not work as intended. 
+A bug occurs when there is a coding error,
+ which causes the program to malfunction.but Errors in code are caused by problems with the code, which means that the developer could have misunderstood the requirement or the requirement was not defined correctly, leading to a mistake. 
+ 
+The bug is submitted by the testers. but Errors are raised by test engineers and developers.
+Logic bugs, resource bugs, and algorithmic bugs are types of bugs. but Syntactic error, error handling error, error handling error, user interface error, flow control error, calculation error, and testing error are types of errors.
+
+Features of the Agile
+Sprints: A sprint is a defined period in Agile product development during which particular work must be performed and fully prepared for the review of the project requirement. Each sprint commences with a strategy meeting or sprint planning.  It is up to the scrum master, who is also the team’s organizer and administrator of the Scrum framework, to decide how long a sprint will last.
+Scrum Meetings: Scrum Meetings are part of the Agile method where a team comes together and collaboratively works on a project despite having managers. In this feature of the agile method, the team discusses how they will move further on a project and approach the problems.
+
+5 scrum ceremonies:
+sprint planning
+daily scrum'
+sprint review-The purpose of the Sprint Review is to inspect the outcome of the sprint and determine future adaptations. The Scrum team presents the results of their work to key stakeholders, and progress toward the Product Goal is discussed.
+sprint retropectinve
+backlog refinement
+
+
+
+Rest API vs Soap API (https://aws.amazon.com/compare/the-difference-between-soap-rest/#:~:text=SOAP%20and%20REST%20are%20two%20different%20approaches%20to%20API%20design,exchange%20data%20in%20multiple%20formats.
+represtational state transfre and simple object accesss protocol
+xml,json,plian text ,html vs xml data
+works with https vs any transport protocol
+REST has faster performance due to smaller messages and caching support. vs SOAP messages are larger, which makes communication slower.
+REST is easy to scale. It’s stateless, so every message is processed independently of previous messages. vs SOAP is difficult to scale. The server maintains state by storing all previous messages exchanged with a client.
+REST supports encryption without affecting performance. vs 	SOAP supports encryption with additional overheads.
+REST is useful in modern applications and public APIs. vs SOAP is useful in legacy applications and private APIs
+REST API exposes the data. vs 	SOAP API exposes the operation.
+REST is an architecture style for designing communication interfaces.vs 	SOAP is a protocol for communication between applications
+
+
+API endpoint: uri url
+
+
+web serbice vs api
+
+GET: Used to retrieve data or resources from an API.
+POST: Used to create new data or resources on an API.
+PUT: Used to update existing data or resources on an API.
+DELETE: Used to delete data or resources from an API.
+PATCH: Used to update existing data or resources on an API partially.
+
+put vs post:
+
+ What is JSON, and why is it commonly used in API testing?
+JSON stands for JavaScript Object Notation, and is a lightweight data-interchange format that is commonly used in API testing. JSON is commonly used in RESTful APIs since it enables efficient data serialization and deserialization, making it ideal for API testing.
+What is XML, and when is it used in API testing?
+XML, which stands for Extensible Markup Language, defines the set of rules for encoding documents in a format that is readable by both humans and machines. XML is used in API testing when APIs require data exchange in XML format.
+
+
+types of authentication:
+Some common authentication methods used in API testing include:
+
+Token-based authentication: This involves issuing a token to the client after successful authentication, which is then included in subsequent API requests for authorization.
+Basic authentication: This involves sending the username and password as part of the API request headers, encoded in base64 format.
+OAuth: This is a widely used authorization framework that allows for the delegation of access rights from one entity to another without sharing credentials
+
+Different types of error responses in API testing include:
+
+HTTP error status codes: These are standard HTTP status codes, such as 4xx and 5xx codes, that indicate errors in the API request or response.
+Custom error responses: These are custom error messages or error objects returned by the API in case of errors or exceptions.
+Validation errors: These are errors that occur when the API request does not meet the validation criteria or constraints defined by the API.
+
+Here is the ultimate guide to API Testing Interview Questions and Answers 2023! Enhance your chances of success with these top 50 questions and answers covering various API testing aspects, including tools, techniques, and best practices.
+
+Top API Testing Interview Questions and Answers for 2024
+1. What is API testing?
+API testing refers to the process of testing Application Programming Interfaces (APIs) to ensure their functionality, reliability, performance, and security. 
+
+2. What are the types of APIs?
+There are several types of APIs, including:
+
+Web APIs: These APIs are designed for communication over the web and are widely used for building web applications. Examples include RESTful APIs, SOAP APIs, and GraphQL APIs.
+Operating System APIs: These APIs are used for interaction with a device or server's underlying operating system. Examples include Windows API, iOS API, and Android API.
+Library APIs: These APIs are used for software development and provide pre-built functions and classes for common tasks. Examples include Python's requests library, Java's JDBC API, and . NET's Entity Framework.
+Hardware APIs: These APIs are used for interacting with hardware devices such as sensors, cameras, and printers. Examples include USB APIs, Bluetooth APIs, and GPIO APIs.
+3. Mention a few common tools used for API testing.
+Some common tools used for API testing include:
+
+Postman: A popular tool for designing, testing, and documenting APIs. It provides a user-friendly interface for sending requests, inspecting responses, and automating tests.
+Swagger: A widely used tool for designing, building, and documenting RESTful APIs. It provides a visual editor for designing API contracts and generating documentation.
+SoapUI: A comprehensive tool for testing SOAP and RESTful APIs. It supports various protocols, message formats, and authentication methods and provides advanced testing features such as data-driven testing and security testing.
+4. What is a RESTful API?
+RESTful API (Representational State Transfer) is an architectural style for designing networked applications. It is based on a set of constraints that enable scalability, simplicity, and interoperability. 
+
+5. What is SOAP API?
+SOAP API (Simple Object Access Protocol) is a protocol for exchanging structured information to implement web services. It uses XML as its message format and provides a set of rules for message exchange, fault handling, and security. 
+
+6. What is the difference between RESTful API and SOAP API?
+The main difference between RESTful API and SOAP API lies in their architectural styles and message formats.
+ RESTful API follows the principles of Representational State Transfer (REST) and typically uses HTTP methods 
+ such as GET, POST, PUT, and DELETE, with data represented in formats like JSON or XML.
+ On the other hand, SOAP API uses the Simple Object Access Protocol (SOAP) and typically relies on XML for message exchange,
+  with predefined methods and strict message structures.
+
+7. What is an API endpoint?
+An API endpoint refers to a specific URL or URI (Uniform Resource Identifier) that represents a unique resource or service provided by an API. It acts as a point of interaction for clients to send requests and receive responses from an API. 
+
+8. Explain API documentation.
+API documentation is a comprehensive guide that provides information on how to use and interact with an API. It typically includes details about API endpoints, request and response formats, authentication and authorization methods, error handling, and other relevant information. 
+
+9. What is an API testing framework?
+An API testing framework is a set of predefined rules, conventions, and tools that provide a structured approach to designing, implementing, and executing API tests. 
+
+10. Mention common HTTP methods used in API testing.
+Common HTTP methods used in API testing are:
+
+GET: Used to retrieve data or resources from an API.
+POST: Used to create new data or resources on an API.
+PUT: Used to update existing data or resources on an API.
+DELETE: Used to delete data or resources from an API.
+PATCH: Used to update existing data or resources on an API partially.
+
+11. What is the purpose of HTTP status codes in API testing?
+The purpose of HTTP status codes in API testing is to indicate the outcome of an API request. Status codes are three-digit numbers included in the response message from the server to provide information about the result of the request.
+
+12. What is the role of headers in API testing?
+Headers in API testing play a significant role in controlling and managing the behavior of API requests and responses.  
+
+13. What is JSON, and why is it commonly used in API testing?
+JSON stands for JavaScript Object Notation, and is a lightweight data-interchange format that is commonly used in API testing. JSON is commonly used in RESTful APIs since it enables efficient data serialization and deserialization, making it ideal for API testing.
+
+14. What is XML, and when is it used in API testing?
+XML, which stands for Extensible Markup Language, defines the set of rules for encoding documents in a format that is readable by both humans and machines. XML is used in API testing when APIs require data exchange in XML format.
+
+15. What is the purpose of authentication in API testing?
+The purpose of authentication in API testing is to verify the identity of the requester before granting access to protected resources. 
+
+16. What are some common authentication methods used in API testing?
+Some common authentication methods used in API testing include:
+
+Token-based authentication: This involves issuing a token to the client after successful authentication, which is then included in subsequent API requests for authorization.
+Basic authentication: This involves sending the username and password as part of the API request headers, encoded in base64 format.
+OAuth: This is a widely used authorization framework that allows for the delegation of access rights from one entity to another without sharing credentials.
+17. How do you handle API authentication in your tests?
+In API tests, authentication is typically handled by including the required authentication parameters, such as tokens, API keys, or OAuth credentials, in the appropriate headers or query parameters of the API requests. 
+
+18. What is API versioning, and why is it important in API testing?
+API versioning is the practice of specifying a version number in the API endpoint or headers to ensure backward compatibility and manage changes in the API over time. API versioning is important in API testing to ensure that the correct version of the API is being tested and that changes in the API do not break existing client applications.
+
+19. What are the different types of error responses in API testing?
+Different types of error responses in API testing include:
+
+HTTP error status codes: These are standard HTTP status codes, such as 4xx and 5xx codes, that indicate errors in the API request or response.
+Custom error responses: These are custom error messages or error objects returned by the API in case of errors or exceptions.
+Validation errors: These are errors that occur when the API request does not meet the validation criteria or constraints defined by the API.
+20. How do you handle error responses in your API tests?
+Error responses in API tests can be handled by checking the response status codes, parsing the custom error messages or error objects returned by the API, and validating against expected error responses. 
+
+21. What is the purpose of query parameters in API testing?
+Query parameters in API testing are used to pass additional parameters in the URL of an API request. These parameters are used to customize the behavior of the API request, such as filtering, sorting, or paginating results. 
+
+
+Request and response headers in API testing are used to transmit additional information about the request or response. Request headers can be used to specify a content type, authentication, caching, language preferences, etc., while response headers can provide information about the server, caching, and more.
+
+
+How do you ensure the security of APIs in your tests?
+Some best practices to ensure the security of APIs in your test include:
+
+Input validation: Ensure that all input data in API requests are properly validated and sanitized to prevent injection attacks.
+Authentication and authorization: Properly implement and validate authentication and authorization mechanisms to ensure that only authorized users can access the API endpoints and perform authorized actions.
+Secure communications: Use secure communication protocols, such as HTTPS, to encrypt data transmitted between the client and server.
+
+PUT vs POST
+That method is idempotent. So if you send retry a request multiple times, that should be equivalent to a single request modification. vs
+POST is NOT idempotent. So if you retry the request N times, you will end up having N resources with N different URIs created on the server.
+Use PUT when you want to modify a single resource that is already a part of the resources collection. 
+PUT overwrites the resource in its entirety. Use PATCH if the request updates part of the resource. vs Use POST when you want to add a child resource under resources collection.
+Generally, in practice, always use PUT for UPDATE operations. vs Always use POST for CREATE operations.
+If you send the same PUT request multiple times, the result will remain the same, but if you send the same POST request multiple times, 
+you will receive different results.
+
+PATCH is used to apply partial updates to a resource, meaning that only the fields that need to be changed are sent in the request body.
+
+1xx informational response – the request was received, continuing process
+2xx successful – the request was successfully received, understood, and accepted
+3xx redirection – further action needs to be taken in order to complete the request
+4xx client error – the request contains bad syntax or cannot be fulfilled
+5xx server error – the server failed to fulfil an apparently valid request
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+200-ok
+201-created
+202-accepted
+204-no content
+
+400 bad request-The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (for example, malformed request syntax, invalid request message framing, or deceptive request routing).
+401 unauthorised-The "401 Unauthorized" status code indicates that the request lacks valid authentication credentials. On the other hand, the "403 Forbidden" status code signifies that the server understands the request but refuses to fulfill it.
+403 forbidden
+404 not found
+405 method not allowed
+408-server timeout
+413-payload too larger
+503-service unavailable
+500 Internal Server Error
+A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.
+503 Service Unavailable
+
+linux:
+https://www.geeksforgeeks.org/linux-commands-cheat-sheet/
+
+
+API parameters can be categorized into 4 main types12345:
+Path Parameters: These point to a specific resource3.we can call http://xxxxx.com/users/1, so ‘1’ in this case,
+ is a unique identifier for specific user.
+Query Parameters: These define sort, pagination, or filter operations35.For example, if we want to query users with their age and nationality, 
+we can use a URL like: http://xxxxx.com/users?age=18&nation=aus.
+Header Parameters: These are usually related to authorization45.
+Request Body Parameters: These are used to send and receive data via the REST API145.
+
+by default accessspecifer
+
+types of variable in postman
+
+
+authentication vs authorisation
